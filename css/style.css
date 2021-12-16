@@ -1,0 +1,244 @@
+.container{
+    background-color: rgb(255 193 193);
+    width: 750px;
+    margin: 0 auto;
+    display: flex;
+    line-height: 1.5;
+
+}
+.left-sec{
+    margin: 20px 0px 0px 20px;
+    flex-basis: 30%;
+}
+.left-sec img{
+    border-radius: 50%;
+    padding: 0px 50px;
+}
+.left-sec h4{
+    font-size: 17px;
+    font-weight: 100;
+    text-transform: capitalize;
+    font-family: 'Lobster', cursive;
+
+}
+.details a{
+    text-decoration: none;
+    color: black;
+    font-style: italic;
+    font-family: 'Archivo', sans-serif;
+}
+.icofont-email{
+    padding: 5px;
+}
+.icofont-android-nexus{
+    padding: 5px;
+}
+.icofont-location-pin{
+    padding: 5px;
+}
+.left-sec-1{
+    border-bottom: 2px solid black;
+}
+.left-sec-2{
+    border-bottom: 2px solid black;
+}
+.left-sec-3{
+    border-bottom: 2px solid black;
+}
+.left-content-1{
+    padding: 15px 0px;
+}
+.left-content-2{
+    padding: 15px 0px;
+}
+.left-content-3{
+    padding: 15px 0px;
+}
+.left-sec h3{
+    font-size: 25px;
+    font-weight: lighter;
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-family: 'Lobster', cursive;
+}
+.skill li{
+    background-color: #f6f6f7;
+    margin: 10px;
+    border: 5px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    text-align: center;
+    text-transform: capitalize;
+    font-family: 'Archivo', sans-serif;
+}
+.left-sec h5{
+    font-size: 18px;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-family: 'Archivo', sans-serif;
+}
+.lang{
+    font-style: italic;
+    font-family: 'Archivo', sans-serif;
+}
+.lang-sec::before{
+    content: "";
+    display: inline-block;
+    background-color: #5ebcdd;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    left: -21px;
+    position: relative;
+    top: 25px;
+}
+.content-sec-1{
+    margin-inline-start: 21px;
+}
+.right-sec{
+    flex-basis: 70%;
+    background-color: white;
+    margin: 20px;
+}
+.right-content{
+    margin: 0px 20px;
+}
+.right-content h1{
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: lighter;
+    font-family: 'Lobster', cursive;
+}
+.right-content h3{
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: lighter;
+    color: cadetblue;
+    font-family: 'Lobster', cursive;
+}
+.content-sec{
+    padding: 4px 13px;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: lighter;
+    background-color: #d5d5d5;
+    border-radius: 5px;
+    font-family: 'Lobster', cursive;
+}
+.content-1{
+    padding-top: 14px;
+}
+.headings-1{
+    margin-inline-start: 159px;
+}
+.headings-2{
+    margin-inline-start: 153px;
+}
+.headings-3{
+    margin-inline-start: 112px;
+}
+.headings-4{
+    margin-inline-start: 150px;
+}
+.headings-5{
+    margin-inline-start: 165px;
+}
+.headings-6{
+    margin-inline-start: 168px;
+}
+.exp{
+    padding-top: 14px;
+}
+.project{
+    padding-top: 14px;
+}
+.certificate{
+    padding-top: 14px;
+}
+.education{
+    padding-top: 14px;
+}
+.interests{
+    padding-top: 14px;
+}
+.content p{
+    text-transform: capitalize;
+    font-family: 'Archivo', sans-serif;
+}
+.para{
+    margin-inline-start: 20px;
+}
+.exp h4{
+    font-size: 20px;
+    font-weight: lighter;
+    text-transform: capitalize;
+    font-family: 'Lobster', cursive;
+}
+.project h4{
+    font-size: 20px;
+    font-weight: lighter;
+    text-transform: capitalize;
+    font-family: 'Lobster', cursive;
+}
+.certificate h4{
+    font-size: 20px;
+    font-weight: lighter;
+    text-transform: capitalize;
+    font-family: 'Lobster', cursive;
+}
+.education h4{
+    font-size: 20px;
+    font-weight: lighter;
+    text-transform: capitalize;
+    font-family: 'Lobster', cursive;
+}
+.education h5{
+    font-size: 18px;
+    text-transform: capitalize;
+    font-family: 'Archivo', sans-serif;
+}
+.interests h4{
+    font-size: 20px;
+    font-weight: lighter;
+    text-transform: capitalize;
+    font-family: 'Lobster', cursive;
+}
+.date{
+    font-size: 16px;
+    font-style: italic;
+    font-weight: bold;
+    color: #5dd5d9;
+    font-family: 'Archivo', sans-serif;
+    text-transform: capitalize;
+}
+.percentage{
+    font-size: 16px;
+    font-style: italic;
+    font-weight: bold;
+    color: #5dd5d9;
+    font-family: 'Archivo', sans-serif;
+    text-transform: capitalize;
+}
+.detail-2{
+    display: flex;
+    justify-content: space-between;
+}
+.play{
+    display: flex;
+    padding-bottom: 10px;
+    justify-content: space-evenly;
+}
+.play li{
+    border: 2px solid #c9c9c9;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 7px;
+    font-family: 'Archivo', sans-serif;
+    text-transform: capitalize;
+    box-shadow: 3px 3px 7px black;
+}
+.project-sec{
+    font-style: italic;
+    text-transform: capitalize;
+    font-family: 'Archivo', sans-serif;
+}
